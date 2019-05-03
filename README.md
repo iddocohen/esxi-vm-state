@@ -11,7 +11,7 @@ It is a very simple shell script but can be extended and improved.
 Windoes/OS X & Linux:
 
 ```sh
-git clone https://github.com/iddocohen/esxi-boot-vm
+git clone https://github.com/iddocohen/esxi-vm-state
 scp states.sh root@<IP of ESXi Host>:/<any directory you like>/
 ```
 

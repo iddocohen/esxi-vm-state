@@ -4,9 +4,6 @@
 The idea, an easy straightfoward way to start or shutdown multiple VMs on a ESXi host.
 One can say to switch on or off all VMs, or just some VMs based on the partial string in the name of the VM. 
 
-![](state_on.png)
-![](state_off_partial.png)
-
 It is a very simple shell script but can be extended and improved.
 
 ## Installation
@@ -33,12 +30,8 @@ The script takes the first parameter to be the state you wish and an array of VM
 
 Note: It will ignoore the vCenter VM if hosted on the ESXi. 
 
-```sh
-[root@homeserver:/scripts] ./states.sh on  
-Usage: ./states.sh [on]/[off] ([array of VM names]).
-e.g.: ./states.sh on PE1 PE2 or ./states.sh off
-
-```
+![](state_on.png)
+![](state_off_partial.png)
 
 ## Release History
 
